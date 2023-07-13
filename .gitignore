@@ -134,3 +134,6 @@ artifacts/
 
 #models
 models/
+
+#config
+config
