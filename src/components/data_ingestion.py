@@ -53,7 +53,7 @@ class DataIngestion:
            train_set.to_csv(self.data_ingestion_config.train_data_path, index=False, header=True)
            test_set.to_csv(self.data_ingestion_config.test_data_path, index=False, header=True)
 
-           logging.info(f"Data ingested grom mongoDB to {self.data_ingestion_config.raw_data_path}")
+           logging.info(f"Data ingested from mongoDB to {self.data_ingestion_config.raw_data_path}")
 
            return(
                self.data_ingestion_config.train_data_path,
